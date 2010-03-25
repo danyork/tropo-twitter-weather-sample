@@ -18,7 +18,7 @@ answer()
 
 if currentCall.channel == "VOICE":
     say( "Welcome to the Tropo dot com sample Yahoo weather app." )
-    result = ask( "Please say the ZIP code for a weather check", { 'choices' : "[5 DIGITS]" })
+    result = ask( "Please say or enter the ZIP code for a weather check", { 'choices' : "[5 DIGITS]" })
 else:
     result = ask( "Enter the ZIP code for a weather check", { 'choices' : "[5 DIGITS]" })
 
