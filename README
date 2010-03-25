@@ -1,0 +1,14 @@
+This is a sample app for http://www.tropo.com/ that works with voice, SMS, IM and Twitter.
+
+Read about how to set up Twitter support at Tropo.com in this blog post:
+
+http://blog.tropo.com/2010/03/25/how-to-add-twitter-support-to-a-tropo-com-app-step-by-step/
+
+The code is based on this python sample app:
+
+https://www.tropo.com/docs/scripting/t_python-yahooweather.htm
+
+But I've modified it so that the weather conditions all go back in a single tweet. I have
+also modified it so that the voice channel gets different treatment from text channels.
+
+My next step is to modify it so that it only asks for a ZIP code if one isn't provided.
